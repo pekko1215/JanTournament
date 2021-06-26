@@ -1,0 +1,26 @@
+{
+   "name": "JanTournament",
+   "version": "1.0.0",
+   "private": true,
+   "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "ts-node src/index.ts",
+      "generate": "nuxt generate"
+   },
+   "dependencies": {
+      "core-js": "^3.9.1",
+      "mysql": "^2.14.1",
+      "nuxt": "^2.15.3",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.34"
+   },
+   "devDependencies": {
+      "@nuxt/types": "^2.15.3",
+      "@nuxt/typescript-build": "^2.1.0",
+      "@nuxtjs/vuetify": "^1.11.3",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   }
+}
